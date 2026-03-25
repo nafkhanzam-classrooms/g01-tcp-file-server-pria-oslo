@@ -10,7 +10,7 @@
 ## Link Youtube (Unlisted)
 Link ditaruh di bawah ini
 ```
-isi ziq
+https://youtu.be/hq50etVzu08
 ```
 
 ## Penjelasan Program
