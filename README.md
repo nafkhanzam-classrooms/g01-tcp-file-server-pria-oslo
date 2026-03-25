@@ -354,3 +354,33 @@ Logika setelah pengecekan event identik dengan `server-select.py`: baca data ke 
 
 
 ## Screenshot Hasil
+
+### sync server
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0dce58e9-ef90-4cff-bda4-b8fd91b80dce" />
+
+Di Gambar dapat dilihat bahwa client selanjutnya harus menunggu client sebelumnya selesai maupun disconnect (karena di kode cuma 1 antriannya) untuk bisa melakukan request dan menerima dari server.
+
+### thread server
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/904bce41-5f03-44ff-a052-1a89f5d15165" />
+
+Di Gambar terlihat tidak harus menunggu, dan bisa menerima brodcast dari client lain juga.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/68732328-a14d-4869-b4a6-51975141e5e8" />
+
+Di Gambar terlihat juga bisa melakukan download diwaktu yang benar benar sama, bisa tahu kalau client lain menambahkan file dan tahu kalo client lain disconnect.
+
+### select server
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9f7e9386-bab7-4839-812b-e35adffb906b" />
+
+Behavior yang sama yakni asynchronous
+
+### poll server
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5a7ac5ff-9b99-4366-8ac8-355f4158dc50" />
+
+Behavior yang sama yakni asynchronous
+
+
