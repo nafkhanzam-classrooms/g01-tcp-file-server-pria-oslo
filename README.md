@@ -15,8 +15,11 @@ isi ziq
 
 ## Penjelasan Program
 
+
 ---
+
 Server diimplementasikan dalam empat metode berbeda: sync, thread, select, dan poll. Semua server kompatibel dengan satu file client yang sama.
+
 ---
 
 ### Daftar File
